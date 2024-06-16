@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sanpresolve
 
 A new Flutter project.
@@ -14,3 +15,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# snapresolve
+>>>>>>> 0f3a3a7c44e557af8492d972a4a95eed1b4a6611
