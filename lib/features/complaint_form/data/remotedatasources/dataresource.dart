@@ -22,11 +22,11 @@ Future<String?> uploadFileDio(String url, String imagePath) async {
     );
 
     if (response.statusCode == 200) {
-      print(response.data.toString());
+ 
       return response.data["predicted_label"];
     } else {
       // Handle error
-      print('Error: ${response.statusCode}');
+      // print('Error: ${response.statusCode}');
       return null;
     }
   } catch (e) {
