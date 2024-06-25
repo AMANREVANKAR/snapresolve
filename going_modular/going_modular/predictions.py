@@ -39,6 +39,7 @@ def pred_and_plot_image(
     # Open image
     img = Image.open(image_path)
 
+
     # Create transformation for image (if one doesn't exist)
     if transform is not None:
         image_transform = transform
@@ -66,6 +67,8 @@ def pred_and_plot_image(
 
         # Make a prediction on image with an extra dimension and send it to the target device
         target_image_pred = model(transformed_image.to(device))
+
+      
 
     # Convert logits -> prediction probabilities (using torch.softmax() for multi-class classification)
     target_image_pred_probs = torch.softmax(target_image_pred, dim=1)
