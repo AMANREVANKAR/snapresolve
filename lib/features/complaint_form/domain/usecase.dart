@@ -10,7 +10,7 @@ class UseCases{
     DataSources apicall =DataSources();
     UserImage user=UserImage();
     user.userimage=userimagepath!;
-    String url = 'http://192.168.22.1:8000/api/imageClassifier';
+    String url = '';
     return await apicall.uploadFileDio(url, userimagepath);
   }
 }
