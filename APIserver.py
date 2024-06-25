@@ -25,4 +25,4 @@ async def imageClassifer(file :UploadFile= File(...)):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host='192.168.22.1', port=8000)
+    uvicorn.run(app, host='', port=)
